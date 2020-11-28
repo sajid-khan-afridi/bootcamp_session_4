@@ -7,7 +7,7 @@ export default function App() {
   let [isMorning, setMorning] = useState(false);
   return (
     <div className={isMorning ? 'dayLight' : 'box'}>
-      <h1>Good {isMorning ? 'Morning' : 'Night'}</h1>
+      <h1>Good {isMorning ? 'Morning ' : 'Night'}</h1>
       
       <Message counter={count}/>
       
